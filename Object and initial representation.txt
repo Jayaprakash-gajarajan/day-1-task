@@ -1,0 +1,42 @@
+  Write a blog about objects and its internal representation in Javascript.
+
+1.Objects in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+
+2.Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+
+3.Variables that are assigned a reference value are given a reference or a pointer to that value. That reference or pointer 
+  points to the location in memory where the object is stored.
+
+4.Loosely speaking, objects in JavaScript may be defined as an unordered collection of related data, 
+  of primitive or reference types, in the form of “key: value” pairs. 
+
+5.If your object is a student, it will have properties like name, age, address, id, etc 
+  and methods like updateAddress, updateNam, etc.
+Example:
+       var myCar = new Object();
+       myCar.make = 'Ford';
+       myCar.model = 'Mustang';
+       myCar.year = 1969;
+
+6.Creating Objects In JavaScript :
+
+     let bike = {name: 'SuperSport', maker:'Ducati', engine:'937cc'};
+
+7.Using the JavaScript Keyword new:
+       
+      var person = new Object();
+      person.firstName = “John”;
+      person.lastName = “Doe”;
+      person.age = 50;
+      person.eyeColor = “blue”;
+
+8.Create JavaScript Object with Constructor
+
+     function Vehicle(name, maker) {
+     this.name = name;
+     this.maker = maker;
+        }
+     let car1 = new Vehicle(’Fiesta’, 'Ford’);
+     let car2 = new Vehicle(’Santa Fe’, 'Hyundai’)
+     console.log(car1.name);  
+     console.log(car2.name);  

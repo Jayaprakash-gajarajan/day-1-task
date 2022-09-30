@@ -1,0 +1,32 @@
+
+
+1.HTTP Came into being in 1991, it has been around for quite A long time. 
+  The communication protocol – your aid in reaching World Wide Web – needs no introduction today.
+
+2.HTTP protocol was developed in 1989 as the common language that enables client and server machines’ interaction. Process steps are as enlisted.
+
+3.While its initial version 1.1 is still the most extensively implemented protocol, it surely has its disadvantages today.
+ 
+4.That’s what HTTP/2 came into being. This version addresses most of the shortcomings of HTTP v1.1.
+
+5.It will define HTTP/2, why it was needed, what are its advantages, why could it be disadvantageous, alongside 
+  the key differences between HTTP/2 and HTTP/1.1.
+
+   HTTP1.1
+
+1.The client (browser) has to send a request to the server using the method (GET/POST).
+
+2.Server responds with the requested resource, for example – image, alongside the status of what it did to the client’s request.
+
+3.This request-response exchange can be regarded as an IP stack being handled by transfer layer and networking layers 
+  before finally reaching to the application layer.
+
+   HTTP2
+
+1.The major feature that differentiates HTTP/2 from HTTP/1.1 is the binary framing layer.
+
+2. Unlike HTTP/1.1, HTTP/2 uses a binary framing layer. This layer encapsulates messages – converted to its binary equivalent – while making
+   sure that its HTTP semantics (method details, header information, etc.) remain untamed.
+
+3.This feature of HTTP/2 enables gRPC to use lesser resources.
+
